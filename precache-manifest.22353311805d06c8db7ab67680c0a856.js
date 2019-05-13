@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd3ab4c97f9de2acb9e9f6ba7de89fb6",
+    "revision": "7d82450dacfa602e84eeb082c095e75e",
     "url": "/superhero/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superhero/static/css/2.14b77cef.chunk.css"
   },
   {
-    "revision": "4fa00b6902d8fbcd96d1",
+    "revision": "bc42fcb6d6683b2c9739",
     "url": "/superhero/static/css/main.5aacecc4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superhero/static/js/2.a419de4c.chunk.js"
   },
   {
-    "revision": "4fa00b6902d8fbcd96d1",
-    "url": "/superhero/static/js/main.d6036e6e.chunk.js"
+    "revision": "bc42fcb6d6683b2c9739",
+    "url": "/superhero/static/js/main.dc67b370.chunk.js"
   },
   {
     "revision": "2da89f76f3fa528a6163",
