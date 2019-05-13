@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/superhero/static/css/main.5a88d421.chunk.css",
-    "main.js": "/superhero/static/js/main.dc67b370.chunk.js",
-    "main.js.map": "/superhero/static/js/main.dc67b370.chunk.js.map",
-    "runtime~main.js": "/superhero/static/js/runtime~main.79f59e53.js",
-    "runtime~main.js.map": "/superhero/static/js/runtime~main.79f59e53.js.map",
-    "static/css/2.14b77cef.chunk.css": "/superhero/static/css/2.14b77cef.chunk.css",
-    "static/js/2.a419de4c.chunk.js": "/superhero/static/js/2.a419de4c.chunk.js",
-    "static/js/2.a419de4c.chunk.js.map": "/superhero/static/js/2.a419de4c.chunk.js.map",
-    "index.html": "/superhero/index.html",
-    "precache-manifest.533236086636944983843f4c8bc98868.js": "/superhero/precache-manifest.533236086636944983843f4c8bc98868.js",
-    "service-worker.js": "/superhero/service-worker.js",
-    "static/css/2.14b77cef.chunk.css.map": "/superhero/static/css/2.14b77cef.chunk.css.map",
-    "static/css/main.5a88d421.chunk.css.map": "/superhero/static/css/main.5a88d421.chunk.css.map",
-    "static/media/semantic.min.css": "/superhero/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/Superhero/static/css/main.5a88d421.chunk.css",
+    "main.js": "/Superhero/static/js/main.dc67b370.chunk.js",
+    "main.js.map": "/Superhero/static/js/main.dc67b370.chunk.js.map",
+    "runtime~main.js": "/Superhero/static/js/runtime~main.d684a304.js",
+    "runtime~main.js.map": "/Superhero/static/js/runtime~main.d684a304.js.map",
+    "static/css/2.4a2021f6.chunk.css": "/Superhero/static/css/2.4a2021f6.chunk.css",
+    "static/js/2.a419de4c.chunk.js": "/Superhero/static/js/2.a419de4c.chunk.js",
+    "static/js/2.a419de4c.chunk.js.map": "/Superhero/static/js/2.a419de4c.chunk.js.map",
+    "index.html": "/Superhero/index.html",
+    "precache-manifest.bf0faf5ab07cc1d5ed0cfbbd8191936a.js": "/Superhero/precache-manifest.bf0faf5ab07cc1d5ed0cfbbd8191936a.js",
+    "service-worker.js": "/Superhero/service-worker.js",
+    "static/css/2.4a2021f6.chunk.css.map": "/Superhero/static/css/2.4a2021f6.chunk.css.map",
+    "static/css/main.5a88d421.chunk.css.map": "/Superhero/static/css/main.5a88d421.chunk.css.map",
+    "static/media/semantic.min.css": "/Superhero/static/media/outline-icons.ef60a4f6.woff"
   }
 }
