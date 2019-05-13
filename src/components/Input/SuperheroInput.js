@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Button, Input } from 'semantic-ui-react';
+import UserInputContext from '../../context/userInput-context';
 
 class SuperheroInput extends Component {
   state = {
@@ -9,25 +10,35 @@ class SuperheroInput extends Component {
     animal: '',
   };
 
-  onChange = event => {
+  onChange = (event) => {
     const { name, value } = event.target;
     this.setState({
       [name]: value,
     });
   };
 
-  onClick = event => {
+  onClick = (event) => {
     const { name, innerHTML } = event.target;
     this.setState({
       [name]: innerHTML,
     });
   };
 
-  render() {
-    const { gender, colour, activity, animal } = this.state;
-    const { onChange, onClick } = this;
+  onSubmit = (context) => {
+    context.updateUserChoice(this.state);
+    this.setState({
+      gender: '',
+      colour: '',
+      activity: '',
+      animal: '',
+    });
+  };
 
-    console.log(gender, colour, activity, animal);
+  render() {
+    const {
+      gender, colour, activity, animal,
+    } = this.state;
+    const { onChange, onClick, onSubmit } = this;
 
     return (
       <>
@@ -102,7 +113,13 @@ class SuperheroInput extends Component {
               <option value="Cat" />
             </datalist>
           </Form.Field>
-          <Form.Button float="right">Submit</Form.Button>
+          <UserInputContext.Consumer>
+            {context => (
+              <Form.Button disabled={!(gender && colour && activity && animal)} float="right" onClick={() => onSubmit(context)}>
+                Submit
+              </Form.Button>
+            )}
+          </UserInputContext.Consumer>
         </Form>
       </>
     );
