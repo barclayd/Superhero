@@ -7,13 +7,13 @@ import SuperheroResult from './components/Result/Result';
 
 class App extends Component {
   state = {
-    gender: 'Male',
+    gender: '',
     colour: '',
     activity: '',
     animal: '',
   };
 
-  updateUserChoice = choice => console.log('updateChoice', choice);
+  updateUserChoice = choices => this.setState(choices);
 
   render() {
     const { gender, colour, activity, animal } = this.state;
