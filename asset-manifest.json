@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/superhero/static/css/main.5aacecc4.chunk.css",
+    "main.css": "/superhero/static/css/main.5a88d421.chunk.css",
     "main.js": "/superhero/static/js/main.dc67b370.chunk.js",
     "main.js.map": "/superhero/static/js/main.dc67b370.chunk.js.map",
     "runtime~main.js": "/superhero/static/js/runtime~main.79f59e53.js",
@@ -9,10 +9,10 @@
     "static/js/2.a419de4c.chunk.js": "/superhero/static/js/2.a419de4c.chunk.js",
     "static/js/2.a419de4c.chunk.js.map": "/superhero/static/js/2.a419de4c.chunk.js.map",
     "index.html": "/superhero/index.html",
-    "precache-manifest.22353311805d06c8db7ab67680c0a856.js": "/superhero/precache-manifest.22353311805d06c8db7ab67680c0a856.js",
+    "precache-manifest.240240cd0a899eb6512e4d6eb800bfd3.js": "/superhero/precache-manifest.240240cd0a899eb6512e4d6eb800bfd3.js",
     "service-worker.js": "/superhero/service-worker.js",
     "static/css/2.14b77cef.chunk.css.map": "/superhero/static/css/2.14b77cef.chunk.css.map",
-    "static/css/main.5aacecc4.chunk.css.map": "/superhero/static/css/main.5aacecc4.chunk.css.map",
+    "static/css/main.5a88d421.chunk.css.map": "/superhero/static/css/main.5a88d421.chunk.css.map",
     "static/media/semantic.min.css": "/superhero/static/media/outline-icons.ef60a4f6.woff"
   }
 }
