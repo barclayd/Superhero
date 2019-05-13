@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/barclayd/Superhero/static/css/main.98569f47.chunk.css",
-    "main.js": "/barclayd/Superhero/static/js/main.843251b4.chunk.js",
-    "main.js.map": "/barclayd/Superhero/static/js/main.843251b4.chunk.js.map",
-    "runtime~main.js": "/barclayd/Superhero/static/js/runtime~main.50202a44.js",
-    "runtime~main.js.map": "/barclayd/Superhero/static/js/runtime~main.50202a44.js.map",
-    "static/css/2.b960bd9d.chunk.css": "/barclayd/Superhero/static/css/2.b960bd9d.chunk.css",
-    "static/js/2.a419de4c.chunk.js": "/barclayd/Superhero/static/js/2.a419de4c.chunk.js",
-    "static/js/2.a419de4c.chunk.js.map": "/barclayd/Superhero/static/js/2.a419de4c.chunk.js.map",
-    "index.html": "/barclayd/Superhero/index.html",
-    "precache-manifest.dd53bd0d0350099c1d04622d012c938d.js": "/barclayd/Superhero/precache-manifest.dd53bd0d0350099c1d04622d012c938d.js",
-    "service-worker.js": "/barclayd/Superhero/service-worker.js",
-    "static/css/2.b960bd9d.chunk.css.map": "/barclayd/Superhero/static/css/2.b960bd9d.chunk.css.map",
-    "static/css/main.98569f47.chunk.css.map": "/barclayd/Superhero/static/css/main.98569f47.chunk.css.map",
-    "static/media/semantic.min.css": "/barclayd/Superhero/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/superhero/static/css/main.98569f47.chunk.css",
+    "main.js": "/superhero/static/js/main.d6036e6e.chunk.js",
+    "main.js.map": "/superhero/static/js/main.d6036e6e.chunk.js.map",
+    "runtime~main.js": "/superhero/static/js/runtime~main.79f59e53.js",
+    "runtime~main.js.map": "/superhero/static/js/runtime~main.79f59e53.js.map",
+    "static/css/2.14b77cef.chunk.css": "/superhero/static/css/2.14b77cef.chunk.css",
+    "static/js/2.a419de4c.chunk.js": "/superhero/static/js/2.a419de4c.chunk.js",
+    "static/js/2.a419de4c.chunk.js.map": "/superhero/static/js/2.a419de4c.chunk.js.map",
+    "index.html": "/superhero/index.html",
+    "precache-manifest.86de276c3bc743a1c71ce3cb180ad5cf.js": "/superhero/precache-manifest.86de276c3bc743a1c71ce3cb180ad5cf.js",
+    "service-worker.js": "/superhero/service-worker.js",
+    "static/css/2.14b77cef.chunk.css.map": "/superhero/static/css/2.14b77cef.chunk.css.map",
+    "static/css/main.98569f47.chunk.css.map": "/superhero/static/css/main.98569f47.chunk.css.map",
+    "static/media/semantic.min.css": "/superhero/static/media/outline-icons.ef60a4f6.woff"
   }
 }
