@@ -16,7 +16,9 @@ class App extends Component {
   updateUserChoice = choices => this.setState(choices);
 
   render() {
-    const { gender, colour, activity, animal } = this.state;
+    const {
+      gender, colour, activity, animal,
+    } = this.state;
 
     return (
       <UserInputContext.Provider
