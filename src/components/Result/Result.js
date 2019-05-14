@@ -118,24 +118,26 @@ const noun = [
 export default () => (
   <UserInputContext.Consumer>
     {(context) => {
-      const chosenAdjective = adjective[Math.floor(Math.random() * adjective.length)];
-      const chosenNoun = noun[Math.floor(Math.random() * noun.length)];
-      let chosenGender;
+      const randomAdjective = adjective[Math.floor(Math.random() * adjective.length)];
+      const randomNoun = noun[Math.floor(Math.random() * noun.length)];
+      let randomGender;
       let output;
       if (context.gender) {
-        if (context.gender === 'female') {
-          chosenGender = female[Math.floor(Math.random() * female.length)];
-          if (female.indexOf(chosenGender) <= 7) {
-            output = `${chosenGender} ${chosenAdjective} ${chosenNoun}`;
+        if (context.gender.toLowerCase().trim() === 'female') {
+          const randomNumber = Math.random() * female.length;
+          randomGender = female[Math.floor(randomNumber)];
+          if (female.indexOf(randomGender) <= 6) {
+            output = `${randomGender} ${randomAdjective} ${randomNoun}`;
           } else {
-            output = `${chosenAdjective} ${chosenNoun} ${chosenGender} `;
+            output = `${randomAdjective} ${randomNoun} ${randomGender} `;
           }
         } else {
-          chosenGender = male[Math.floor(Math.random() * male.length)];
-          if (male.indexOf(chosenGender) <= 7) {
-            output = `${chosenGender} ${chosenAdjective} ${chosenNoun}`;
+          const randomNumber = Math.random() * male.length;
+          randomGender = male[Math.floor(randomNumber)];
+          if (randomNumber <= 6) {
+            output = `${randomGender} ${randomAdjective} ${randomNoun}`;
           } else {
-            output = `${chosenAdjective} ${chosenNoun} ${chosenGender} `;
+            output = `${randomAdjective} ${randomNoun} ${randomGender} `;
           }
         }
         return (
@@ -143,7 +145,12 @@ export default () => (
             <h4>
               <i>Your new identity is:</i>
             </h4>
-            <Header>{output}</Header>
+            <Header
+              size="huge"
+              style={{ color: '#0892d0', fontWeight: 'bold' }}
+            >
+              {output}
+            </Header>
             <h5>Gender: {context.gender}</h5>
             <h5>Colour: {context.colour}</h5>
             <h5>Activity: {context.activity}</h5>
@@ -153,7 +160,8 @@ export default () => (
       }
       return (
         <h3>
-          Please make your choices and press submit to reveal your superhero!
+          Please make your choices and press submit to reveal your new superhero
+          identity!
         </h3>
       );
     }}

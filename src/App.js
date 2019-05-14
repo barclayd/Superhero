@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import UserInputContext from './context/userInput-context';
 import Header from './components/Header/Header';
-import SuperheroInput from './components/Input/SuperheroInput';
+import SuperheroInput from './components/SuperheroInput/SuperheroInput';
 import SuperheroResult from './components/Result/Result';
 
 class App extends Component {

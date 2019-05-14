@@ -10,21 +10,21 @@ class SuperheroInput extends Component {
     animal: '',
   };
 
-  onChange = (event) => {
+  onChange = event => {
     const { name, value } = event.target;
     this.setState({
       [name]: value,
     });
   };
 
-  onClick = (event) => {
+  onClick = event => {
     const { name, innerHTML } = event.target;
     this.setState({
       [name]: innerHTML,
     });
   };
 
-  onSubmit = (context) => {
+  onSubmit = context => {
     context.updateUserChoice(this.state);
     this.setState({
       gender: '',
@@ -35,9 +35,7 @@ class SuperheroInput extends Component {
   };
 
   render() {
-    const {
-      gender, colour, activity, animal,
-    } = this.state;
+    const { gender, colour, activity, animal } = this.state;
     const { onChange, onClick, onSubmit } = this;
 
     return (
@@ -115,7 +113,11 @@ class SuperheroInput extends Component {
           </Form.Field>
           <UserInputContext.Consumer>
             {context => (
-              <Form.Button disabled={!(gender && colour && activity && animal)} float="right" onClick={() => onSubmit(context)}>
+              <Form.Button
+                disabled={!(gender && colour && activity && animal)}
+                float="right"
+                onClick={() => onSubmit(context)}
+              >
                 Submit
               </Form.Button>
             )}
