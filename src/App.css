@@ -1,6 +1,5 @@
 body,
 html {
-  margin: 40px;
   background: #000;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
@@ -24,6 +23,7 @@ html {
 }
 
 .wrapper {
+  margin: 1em;
   display: grid;
   background: #000;
   grid-gap: 1em;
@@ -34,6 +34,7 @@ html {
 }
 @media only screen and (min-width: 600px) {
   .wrapper {
+    margin: 4em;
     grid-gap: 20px;
     background: #000;
     grid-template-columns: 400px auto auto;
